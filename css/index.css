@@ -1,8 +1,18 @@
+/*
+* {
+  border: solid 1px blue;
+}
+*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 body { 
     margin: 0px; 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    max-width: 100vw;
     /*max-width: 2000px;*/
 }
 header { border: 0px black solid;}
@@ -49,7 +59,6 @@ p {
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Oswald', sans-serif;*/
 }
-
 
 /* ---------------Burger----------------- */
 
@@ -177,12 +186,11 @@ p {
   display: inline-flex;
   vertical-align: top;
   padding: 1%;
-  width: 100%;
+  width: 98%;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   border-bottom: 1px solid #dbdbdb;
-  width: 100%;
 }
 .logoBurger {
   padding-left: 30px;
@@ -195,7 +203,10 @@ p {
   vertical-align: top;
   display: inline-flex;
   flex-direction: row;
+  /*
   padding-right: 40px;
+  */
+  margin-right: 40px;
 }
 .menuitem a {
   padding: 20px;
@@ -293,8 +304,10 @@ p {
 } */
 
 .footerUl {
+    
     padding-left: 50px;
     padding-right: 50px;
+    
     width: 50%;
     margin-left: auto;
 }
@@ -430,7 +443,9 @@ footer {
     display: flex;
     justify-content: left;
     vertical-align: top;
+    /*
     width: 100%;
+    */
     margin: 0;
     /*margin-left: auto;
     text-align: center;
