@@ -843,9 +843,9 @@ grid-template-areas:
       column-gap: 10px;
       grid-template-areas: 
         "headpad_3 headpad_3 headpad_3 headpad_3 headpad_3 headpad_3"
-        "main_3 main_3 main_3 main_3 header_3 header_3"
-        "main_3 main_3 main_3 main_3 sidebar_3 sidebar_3"
-        "main_3 main_3 main_3 main_3 . ."
+        "main_3 main_3 main_3 . header_3 header_3"
+        "main_3 main_3 main_3 . sidebar_3 sidebar_3"
+        "main_3 main_3 main_3 . . ."
         "footpad_3 footpad_3 footpad_3 footpad_3 footpad_3 footpad_3";
         background-color: #2E2E2E;
         border-top: 1px solid black;
