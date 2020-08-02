@@ -185,13 +185,16 @@ p {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  border-bottom: 1px solid #dbdbdb;
+  /*border-bottom: 1px solid #dbdbdb;*/
 }
 .logoBurger {
   padding-left: 30px;
 }
 .logoBurger a {
+  font-family: 'Spectral SC', serif;
+  /*font-family: 'Cormorant Garamond', serif;*/
   text-decoration: none;
+  font-size: 2rem;
 }
 .jwmenu {
   list-style: none;
@@ -225,7 +228,9 @@ p {
   }
   .hamburger {
     display: block;
+    /*
     padding-right: 4%;
+    */
     cursor: pointer;
     margin-right: 9%;
   }
@@ -234,7 +239,7 @@ p {
     vertical-align: top;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 92%;
   }
   .jwmenu {
     display: none;
@@ -493,8 +498,8 @@ height: 50px;
 .p0-container {
 padding-top: 100px;
 padding-bottom: 100px;
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 100px;
+padding-right: 100px;
 display: grid;
 grid-template-columns: 16% 16% 16% 16% 16% 16%;
 grid-template-rows: auto;
@@ -519,7 +524,45 @@ grid-template-areas:
     grid-area: header;
     font-size: 4rem;
     line-height: 120%;
+    /*
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    */
   }
+  .noBreak {
+    font-weight: lighter;
+    white-space:nowrap;
+    font-size: 3.5rem;
+  }
+  .johnWise {
+    font-family: 'Spectral SC', serif;
+    font-weight: 400;
+    font-style: italic;
+    /*font-family: 'Cormorant Garamond', serif;*/
+    white-space:nowrap;
+    font-size: 4.5rem;
+  }
+  @supports (-webkit-text-stroke: 2px black) {
+    .headerOutline {
+      -webkit-text-stroke: 2px black;
+      -webkit-text-fill-color: white;
+      white-space:nowrap;
+    }
+  }
+  .headerOutline2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 4.8rem;
+    /*font-family: 'Playfair Display', serif;*/
+    white-space:nowrap;
+  }
+/*
+  @supports (-webkit-text-stroke: 1px black) {
+    h1 {
+      -webkit-text-stroke: 1px black;
+      -webkit-text-fill-color: white;
+    }
+  }
+*/
   .p1-item-a p {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -554,8 +597,8 @@ grid-template-areas:
     height: 50px;
   }
   .p1-container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     grid-template-rows: auto;
@@ -630,8 +673,8 @@ grid-template-areas:
     .p2-container {
       padding-top: 100px;
       padding-bottom: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
       display: grid;
       grid-template-columns: 16% 16% 16% 16% 16% 16%;
       grid-template-rows: auto;
@@ -694,8 +737,8 @@ grid-template-areas:
     .p3-container {
       padding-top: 100px;
       padding-bottom: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
       display: grid;
       grid-template-columns: 16% 16% 16% 16% 16% 16%;
       grid-template-rows: auto;
@@ -755,8 +798,8 @@ grid-area: footpad_2;
 height: 50px;
 }
 .p-a-container {
-padding-left: 50px;
-padding-right: 50px;
+padding-left: 100px;
+padding-right: 100px;
 display: grid;
 grid-template-columns: 16% 16% 16% 16% 16% 16%;
 grid-template-rows: auto;
@@ -997,8 +1040,8 @@ grid-template-areas:
     
 .mySkills {
     background-color: #F5F5F5;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 0;
     padding-top: 3em;
     padding-bottom: 3em;
@@ -1181,6 +1224,9 @@ grid-template-areas:
   border-top: 1px solid black;
 }
 
+* {
+  outline: solid 1px blue;
+}
   /*panel 1*/
 
   .p1-headpad {
@@ -1190,7 +1236,31 @@ grid-template-areas:
 }
 .p1-item-a {
   grid-area: header;
-  font-size:56px;
+  font-size: 44px;
+}
+
+.noBreak {
+  white-space:nowrap;
+  font-size: 32px;
+}
+.johnWise {
+  font-family: 'Cormorant Garamond', serif;
+  white-space:nowrap;
+  font-size: 3.2rem;
+}
+@supports (-webkit-text-stroke: 2px black) {
+  .headerOutline {
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+    white-space:nowrap;
+  }
+}
+.headerOutline2 {
+  font-family: 'Crimson Text', serif;
+  /*font-size: 4rem;*/
+  /*font-family: 'Playfair Display', serif;*/
+  white-space:nowrap;
+  font-size: 44px;
 }
 .p1-item-b {
   grid-area: main;
