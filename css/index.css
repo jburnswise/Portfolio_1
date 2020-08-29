@@ -214,55 +214,56 @@ p {
 .hamburger {
   display: none;
 }
-
-
-@media all and (max-width: 600px) {
-  .navbar {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    display: block;
-    margin-top: 2%;
-    align-items: baseline;   
-  }
-  .hamburger {
-    display: block;
-    /*
-    padding-right: 4%;
-    */
-    cursor: pointer;
-    margin-right: 9%;
-  }
-  .logoBurger {
-    display: inline-flex;
-    vertical-align: top;
-    justify-content: space-between;
-    align-items: center;
-    width: 92%;
-  }
-  .jwmenu {
-    display: none;
-  }
-  .jwmenu li a {
-    display: flex;
-    flex-direction: column;
-    z-index: 9999999999999;
-    align-items: center;
-    background-color: pink;
-    background-size: 100% auto;
-  }
-  .jwmenu.active {
-    display: flex;
-    padding: 0;
-    flex-direction: column;
-  }
-  .navitem {
-    padding-right: 15%;
-    padding-left: 15%;
-  }
-}
-
+/*  Hamburger  */
+/*
+        @media all and (max-width: 600px) {
+          .navbar {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            display: block;
+            margin-top: 2%;
+            align-items: baseline;   
+          }
+          .hamburger {
+            display: block;
+            /*
+            padding-right: 4%;
+            */
+            /*
+            cursor: pointer;
+            margin-right: 9%;
+          }
+          .logoBurger {
+            display: inline-flex;
+            vertical-align: top;
+            justify-content: space-between;
+            align-items: center;
+            width: 92%;
+          }
+          .jwmenu {
+            display: none;
+          }
+          .jwmenu li a {
+            display: flex;
+            flex-direction: column;
+            z-index: 9999999999999;
+            align-items: center;
+            background-color: pink;
+            background-size: 100% auto;
+          }
+          .jwmenu.active {
+            display: flex;
+            padding: 0;
+            flex-direction: column;
+          }
+          .navitem {
+            padding-right: 15%;
+            padding-left: 15%;
+          }
+        }
+*/
 /* END OF NEW CODE */
 
 .inline-block {
@@ -1223,10 +1224,11 @@ grid-template-areas:
   background-color: #2E2E2E;
   border-top: 1px solid black;
 }
-
+/*
 * {
   outline: solid 1px blue;
 }
+*/
   /*panel 1*/
 
   .p1-headpad {
